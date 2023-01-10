@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    open-in-view: true
+    properties:
+      jakarta:
+        persistence.sharedCache.mode: UNSPECIFIED
+
+springdoc:
+  swagger-ui.path: /api-ui
+  api-docs.path: /api-json
+
+
